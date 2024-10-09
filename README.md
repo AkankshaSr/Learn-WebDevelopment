@@ -1,5 +1,10 @@
-# Learn-WebDevelopment
-<h1>Starting a new journey to learn web development from scratch</h1> <br />
-
-<h1> Day 1</h1>
-<p> Learned about various headings in HTML and how to use anchor tag </p>
+<h1>Learning about CSS from scrach</h1>
+<h2> Day 1 </h2>
+<p> Learned what is CSS and why to use CSS</p>
+<p> Learned about selectors in CSS<p>
+<li>Class Selector</li>
+<li>ID Selector</li>
+<li>Element Selector</li>
+<li>Pseudo Selector</li>
+<li>Universal Selector</li></br>
+<p>Learned about CSS box Model</p>
