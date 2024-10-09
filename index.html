@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS BOX MODEL</title>
+  </head>
+  <style>
+    .box1 {
+      width: 500px;
+      border: 2px solid black;
+      padding: 20px;
+      margin: 10px;
+      background-color: aquamarine;
+    }
+    .box2 {
+      width: 470px;
+      border: 2px solid black;
+      padding: 20px;
+      margin: 10px;
+      box-sizing: border-box;
+      background-color: bisque;
+    }
+    .box3 {
+      width: 350px;
+      border: 2px solid black;
+      padding: 20px;
+      margin: 10px;
+      background-color: brown;
+    }
+  </style>
+  <body>
+    <div class="box1">
+      1
+      <div class="box2">
+        2
+        <div class="box3">3</div>
+      </div>
+    </div>
+  </body>
 </html>
